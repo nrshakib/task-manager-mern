@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
 });
 
 // Listen Server
-app.listen(port, async() => {
-    console.log(`Server running on ${port}`);
-    await dbConnect()
+app.listen(port, async () => {
+  console.log(`Server running on ${port}`);
+  await dbConnect();
 });
