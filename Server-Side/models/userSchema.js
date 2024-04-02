@@ -25,3 +25,5 @@ const userSchema = new mongoose.Schema({
     maxLength: [32, "Name can contain at most 32 characters"],
   },
 });
+
+module.exports = mongoose.model("User", userSchema);
